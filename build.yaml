@@ -18,9 +18,11 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano@2
     shield: lily58_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano_v2
+    artifact-name: lily58_left
+  - board: nice_nano@2
     shield: lily58_right nice_view_adapter nice_view_gem
+    artifact-name: lily58_right
